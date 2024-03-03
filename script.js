@@ -72,11 +72,11 @@ $(document).ready(function(){
 });
 
 document.getElementById("whatsapp").onclick = function () {
-    window.open('https://wa.me/919486310048','blank');
+    window.open('https://wa.me/918220887549','blank');
 };
 
 document.getElementById("phone-call").onclick = function () {
-    window.open('tel:917010724598','blank');
+    window.open('tel:918220887549','blank');
 };
 
 document.getElementById("direction").onclick = function () {
@@ -87,11 +87,6 @@ var today = new Date().toISOString().split('T')[0];
 
     // Set the min attribute of the date input to today, disabling past dates
     document.getElementById('datepicker').setAttribute('min', today);
-
-
-
-
-
 
 
 
