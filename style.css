@@ -30,7 +30,7 @@
 
 :root{
     --yellow: rgb(255, 242, 0);
-    --menu_colour:blue;
+    --menu_colour:rgb(255, 230, 0);
     --bg-clr:#ffffff;
 }
 
@@ -59,7 +59,7 @@ body{
     background-color: var(--bg-clr); /*#ffffffcc*/
     scroll-behavior: smooth;
     height: 100vh;
-    width: 100%;
+    max-width: 100%;
 }
 
 /* navbar styling */
@@ -170,6 +170,7 @@ body{
     }
     .menu-btn i.active:before{
         content: "\f00d";
+        color: red;
     }
     .navbar .menu{
         position: fixed;
@@ -486,7 +487,7 @@ video{
     flex: 1;
     width: 600px;
     margin: 0 25px;
-    animation: fadeinup 2s ease;
+    /* animation: fadeinup 2s ease; */
 }
 
 .about-us_content h2{
@@ -524,11 +525,11 @@ video{
     flex: 1;
     width: 50%;
     margin: auto;
-    animation: fadeinri 2s ease;
+    /* animation: fadeinri 2s ease; */
 }
 
 .about-us_img img{
-    width: 100%;
+    width: 90%;
     height: auto;
     border-radius: 10px;
 }
@@ -586,7 +587,7 @@ video{
   
 }
 
-@keyframes fadeinup{
+/* @keyframes fadeinup{
     0%{
         opacity: 0;
         transform: translateY(50px);
@@ -606,7 +607,7 @@ video{
         opacity: 1;
         transform: translateX(0px);
     }
-}
+} */
 
 
 
@@ -1063,8 +1064,8 @@ video{
     /* min-height: 350px; */
     padding: 3rem 1rem;
     /* height: 50vh; */
-    /* position: absolute;
-    margin-bottom: -100px; */
+    position: absolute;
+    margin-bottom: -100px;
 }
 .footer {
    width: 100%;
