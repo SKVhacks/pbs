@@ -10,6 +10,47 @@
 
 // document.addEventListener('contextmenu',
 //                 event => event.preventDefault());
+ScrollReveal().reveal('#about', { 
+    interval:800,
+    distance: '50px',
+    origin: 'top',
+    interval: 600,
+    mobile:true,
+   
+});
+
+ScrollReveal().reveal('.about-us_img', { 
+    interval:800,
+    distance: '50px',
+    origin: 'left',
+    interval: 600,
+    mobile:true,
+   
+});
+
+ScrollReveal().reveal('.about-us_content', { 
+    delay: 500,
+    distance: '50px',
+    origin: 'right',
+    mobile:true,
+});
+
+ScrollReveal().reveal('#social', { 
+    delay: 800,
+    distance: '10px',
+    easing: 'steps(50)',
+    origin: 'left',
+    mobile:true,
+});
+
+ScrollReveal().reveal('#form', { 
+    delay: 900,
+    distance: '10px',
+    easing: 'steps(50)',
+    origin: 'right',
+    mobile:true,
+});
+
 
 
 $(document).ready(function(){
