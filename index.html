@@ -14,6 +14,9 @@
   
    <!--nav-fun-->
    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+   <!--  -->
+    <!-- scroll animi -->
+    <script src="https://unpkg.com/scrollreveal"></script>
    <!-- footer-style -->
    <script>
     let docTitle = document.title;
@@ -38,6 +41,7 @@ document.title = docTitle;
                 <li><a href="#contact" class="menu-btn">Book Now</a></li>
                 <li><a href="#footer" class="menu-btn">Contact</a></li>
             </ul>
+            
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
             </div>
@@ -163,7 +167,7 @@ document.title = docTitle;
     </div>
 <!-- About Us -->
         <div class="about-us" >
-            <div class="heading">
+            <div class="heading" id="about">
                 <h1 >About us</h1>
             </div>
 
@@ -192,7 +196,7 @@ document.title = docTitle;
     </div>
     
     <div class="container">
-        <div class="box" >
+        <div class="box" id="social">
             <div class="contact">
                 <button id="whatsapp" class="whatsapp">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -219,7 +223,7 @@ document.title = docTitle;
             </div>
         </div>
         <!-- style="border-left:hidden ;" -->
-        <div class="box" >
+        <div class="box" id="form">
             <form class="form" action="https://api.web3forms.com/submit" method="POST"   >
 
                 <input type="hidden" name="access_key" value="e4bb4ce1-dff8-4eee-8211-40cc5bba9bb8">
