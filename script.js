@@ -1,4 +1,4 @@
-// alert("This Web Page build is going On...!")
+alert("This Web Page build is going On...! 'Backgroung-video sample purpose'");
 
 // let docTitle = document.title;
 // window.addEventListener("blur",()=>{
